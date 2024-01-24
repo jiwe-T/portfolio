@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website  </title>
+        <link rel="stylesheet" href="STYLE.css">
+        <script src="https://kit.fontawesome.com/35e508876a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.jpg" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Jiwe</span><br>Taura From Kenya</h1>
+            </div>
+        </div>
+
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portfolio image.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="theory">Welcome to my portfolio! I am a dedicated individual who embarked on an academic journey at Little Angels Primary School, followed by an enriching secondary education at Maranda High School. Currently, I am pursuing a degree in Electrical and Telecommunication Engineering at Multimedia University.
+                        
+                        Beyond my academic pursuits, I find joy in the fluid movements of football and the refreshing laps of swimming. These activities not only keep me physically active but also instill a sense of discipline and teamwork. 
+                        
+                        My true passion lies in the dynamic realm of technology, where I continually explore and push my boundaries. Known for my strong work ethic, I approach challenges with resilience and determination, striving for excellence in every endeavor.
+                        
+                        Join me on this journey as I blend my academic expertise with a fervent enthusiasm for technology, all while maintaining a commitment to hard work and constant improvement. Together, let's create and innovate in the ever-evolving landscape of engineering and technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>sept 2023 - date</span><br>A student in PLP </li>
+                            
+                        
+                            
+            
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos aperiam, quas alias doloremque similique expedita quibusdam tenetur, ipsam aliquam aliquid magnam quaerat rerum vero nesciunt, eligendi excepturi sunt nemo.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos aperiam, quas alias doloremque similique expedita quibusdam tenetur, ipsam aliquam aliquid magnam quaerat rerum vero nesciunt, eligendi excepturi sunt nemo.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>app Design</h2>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos aperiam, quas alias doloremque similique expedita quibusdam tenetur, ipsam aliquam aliquid magnam quaerat rerum vero nesciunt, eligendi excepturi sunt </p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-----------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/port im1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world ! Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/port im3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to a shopping store / site that enables you to shop for items ! Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/port im2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app enables you to listen to the songs of your choice , it's just a click and listen thing ! Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-----------contanct--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>  jiwetaura@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>  0711995734</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/TAURA JIWE NGOMBO.docx"class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" class="area" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> JIwe . Made with <i class="fa-solid fa-heart"></i> by Taura J Developers.  </p>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+    </body>
+
+</html>
